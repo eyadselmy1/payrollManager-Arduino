@@ -86,7 +86,7 @@ void loop() {
     else if (millis() - selectPressTime > 1000) {
       lcd.setBacklight(PURPLE);
       lcd.setCursor(0, 0);
-      lcd.print(F("F418827          "));
+      lcd.print(F("xxxxxxx          "));
       lcd.setCursor(0, 1);
       lcd.print(freeMemory());
       lcd.print(" BYTES       ");
@@ -628,4 +628,4 @@ bool verifySalary(char* salary) {
     }
   }
   return true;
-}pay
+}
