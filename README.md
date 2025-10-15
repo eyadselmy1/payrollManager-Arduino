@@ -1,17 +1,4 @@
 # Payroll Management System
 
-This system allows users to keep track of their employee information and payroll. Functionality includes:
-- Adding, Storing, and Deleting employee accounts.
-- Employee information that can be stored includes employee ID, job grade, salary, pension status, job title.
-- Functionality allowing users to modify employee information when required.
-- Interactive display on the LCD screen of an Arduino, allowing users to view and scroll through the different employee accounts.
-
-
-# Requirements:
-
-- Arduino IDE
-- Arduino UNO board
-- Libraries:
-   - Wire.h
-   - Adafruit\_RGBLCDShield.h
-   - MemoryFree.h
+- Developed a system enabling users to add, modify, and delete employee records, including ID, salary, and pension details.
+- Built in C++ using Arduino IDE and deployed on an Arduino UNO, featuring an interactive LCD interface for browsing employee information.
